@@ -25,8 +25,8 @@ app.get('/about',function(req,res){
 app.get('/blogs',function(req,res){
 	res.render('blogs')
 })
-app.get('/getinvolved',function(req,res){
-		res.render('getinvolved')
+app.get('/analysis',function(req,res){
+		res.render('analysis')
 })
 
 // app.get('/result',function(req,res){
